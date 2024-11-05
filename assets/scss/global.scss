@@ -1,0 +1,13 @@
+.centered {
+  display: flex;
+  width: 100%;
+  margin: auto;
+
+  @include vp-360 {
+    max-width: 92%;
+  }
+}
+
+._spaceBetween {
+  justify-content: space-between;
+}
